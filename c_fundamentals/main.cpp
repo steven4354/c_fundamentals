@@ -14,5 +14,9 @@ int main() {
 	std::cout << "Hello to c fundamentals \n";
 	std::cout << "This is how to place variables in stirngs " << WORLD_LENGTH;
 
+	// below is how to get an input from the terminal / console
+	std::string UserInput = "";
+	std::cin >> UserInput;
+
 	return 0;
 }
