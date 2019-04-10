@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 // what a namespace is
 // https://www.geeksforgeeks.org/difference-namespace-class/
@@ -13,10 +14,19 @@ int main() {
 
 	std::cout << "Hello to c fundamentals \n";
 	std::cout << "This is how to place variables in stirngs " << WORLD_LENGTH;
+	std::cout << "This is how to place variables in stirngs \n";
 
 	// below is how to get an input from the terminal / console
+	// string comes from the string library
+
+	std::cout << "Place an input \n ";
 	std::string UserInput = "";
 	std::cin >> UserInput;
+	std::cout << "\n ";
+
+
+	// repeat the input
+	std::cout << "This was your input " << UserInput;
 
 	return 0;
 }
