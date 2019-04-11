@@ -13,8 +13,8 @@ int main() {
 	constexpr int WORLD_LENGTH = 9;
 
 	std::cout << "Hello to c fundamentals \n";
-	std::cout << "This is how to place variables in stirngs " << WORLD_LENGTH;
-	std::cout << "This is how to place variables in stirngs \n";
+	std::cout << "This is how to place variables in strings: " << WORLD_LENGTH;
+	std::cout << "\n";
 
 	// below is how to get an input from the terminal / console
 	// string comes from the string library
@@ -23,7 +23,6 @@ int main() {
 	std::string UserInput = "";
 	std::cin >> UserInput;
 	std::cout << "\n ";
-
 
 	// repeat the input
 	std::cout << "This was your input " << UserInput;
