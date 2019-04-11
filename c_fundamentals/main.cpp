@@ -18,11 +18,7 @@ void PrintIntro() {
 	std::cout << "\n";
 }
 
-int main() {
-
-	// calling a function in c++
-	PrintIntro();
-
+void GetInputAndPrint() {
 	// below is how to get an input from the terminal / console
 	// string comes from the string library
 
@@ -34,6 +30,18 @@ int main() {
 	// repeat the input
 	std::cout << "This was your input " << UserInput;
 	std::cout << "\n";
+}
+
+int main() {
+
+	// calling a function in c++
+	PrintIntro();
+	
+	int TIMES_TO_PRINT = 5;
+	for (int count = 1; count <= TIMES_TO_PRINT; count++) {
+		GetInputAndPrint();
+	}
+
 
 	return 0;
 }
