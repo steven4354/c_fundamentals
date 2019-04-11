@@ -32,16 +32,19 @@ void GetInputAndPrint() {
 	std::cout << "\n";
 }
 
+void PlayGame() {
+	int TIMES_TO_PRINT = 5;
+	for (int count = 1; count <= TIMES_TO_PRINT; count++) {
+		GetInputAndPrint();
+	}
+}
+
 int main() {
 
 	// calling a function in c++
 	PrintIntro();
 	
-	int TIMES_TO_PRINT = 5;
-	for (int count = 1; count <= TIMES_TO_PRINT; count++) {
-		GetInputAndPrint();
-	}
-
+	PlayGame();
 
 	return 0;
 }
