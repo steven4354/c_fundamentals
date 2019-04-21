@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "FSampleClass.h"
 
 // what a namespace is
 // https://www.geeksforgeeks.org/difference-namespace-class/
@@ -8,6 +9,9 @@
 // it is generally safer to use ::
 // syntax: using namespace std
 
+
+// using a class
+FSampleClass BCSampleClass;
 
 // creating a function - use void at the beginning if it doesn't return anything!
 void PrintIntro() {
